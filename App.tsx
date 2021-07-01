@@ -1,12 +1,8 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import CounterScreen from './src/screens/CounterScreen';
 
 const App = () => {
-  return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
-  );
+    return <CounterScreen />;
 };
 
 export default App;
